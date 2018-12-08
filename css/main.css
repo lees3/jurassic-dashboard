@@ -43,3 +43,9 @@ h2 {
 .rec-4 {
   animation: flicker 150ms linear infinite alternate;
 }
+
+.warning {
+  transform-origin: 675px 1343px;
+  animation: pulse 2s linear alternate infinite;
+  fill: #f62e52;
+}
