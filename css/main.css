@@ -34,6 +34,10 @@ h2 {
   animation: grow 1s .5s linear forwards;
 }
 
+.rec-1 {
+  animation: flicker 200ms linear infinite alternate;
+}
+
 .rec-2 {
   animation: flicker 150ms linear infinite alternate;
 }
