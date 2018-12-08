@@ -3,3 +3,15 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+.dashboard-map,
+.dashboard-controls-top,
+.dashboard-stats {
+  border-bottom: 1px dotted #89d4e5;
+}
+
+h2 {
+  border-left: 1px dotted #89d4e5;
+  border-bottom: 1px dotted #89d4e5;
+  filter: drop-shadow(0 0 5px #89d4e5);
+}
