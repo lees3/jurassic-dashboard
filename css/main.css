@@ -37,9 +37,11 @@ h2 {
 .rec-2 {
   animation: flicker 150ms linear infinite alternate;
 }
+
 .rec-3 {
   animation: flicker 200ms linear infinite alternate;
 }
+
 .rec-4 {
   animation: flicker 150ms linear infinite alternate;
 }
@@ -96,9 +98,24 @@ h2 {
   }
 
 }
+
 @media only screen and (min-width: 38em) {
 
   .dashboard-stats {
+    border-bottom: none;
+    border-right: 1px dotted #89d4e5;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .dashboard-stats {
+    border-right: none;
+    border-bottom: 1px dotted #89d4e5;
+  }
+
+  .dashboard-map {
     border-bottom: none;
     border-right: 1px dotted #89d4e5;
   }
