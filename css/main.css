@@ -40,3 +40,6 @@ h2 {
 .rec-3 {
   animation: flicker 200ms linear infinite alternate;
 }
+.rec-4 {
+  animation: flicker 150ms linear infinite alternate;
+}
