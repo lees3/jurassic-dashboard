@@ -27,3 +27,9 @@ h2 {
 .action-btn .action-icon:hover {
   filter: drop-shadow(0 0 5px #fff);
 }
+
+.rec {
+  transform-origin: 10px 755px;
+  transform: scaleY(0);
+  animation: grow 1s .5s linear forwards;
+}
