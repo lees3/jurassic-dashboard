@@ -53,3 +53,15 @@ h2 {
 .star {
   fill: #ffd31d;
 }
+
+@keyframes grow {
+
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+
+}
