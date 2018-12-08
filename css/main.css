@@ -96,3 +96,11 @@ h2 {
   }
 
 }
+@media only screen and (min-width: 38em) {
+
+  .dashboard-stats {
+    border-bottom: none;
+    border-right: 1px dotted #89d4e5;
+  }
+
+}
