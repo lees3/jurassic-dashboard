@@ -33,3 +33,7 @@ h2 {
   transform: scaleY(0);
   animation: grow 1s .5s linear forwards;
 }
+
+.rec-2 {
+  animation: flicker 150ms linear infinite alternate;
+}
