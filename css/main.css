@@ -49,3 +49,7 @@ h2 {
   animation: pulse 2s linear alternate infinite;
   fill: #f62e52;
 }
+
+.star {
+  fill: #ffd31d;
+}
